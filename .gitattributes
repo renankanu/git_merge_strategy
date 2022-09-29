@@ -1,0 +1,3 @@
+main/android/* merge=ours
+main/ios/* merge=ours
+.env merge=ours
