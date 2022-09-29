@@ -16,9 +16,9 @@ help: ## This help dialog.
 
 run_merge: ## Run Merge
 ifneq ($(BRANCH), main)
-	@echo "╠ Committing..."
-	$(info Checking if custom header is needed)
-	$(info $(BRANCH))
+	@echo "🐱 Merging Branchs..."
+	@git merge -
+	@echo "✅ Done !"
 else
 	@echo "❕ You are in the main branch ... ❕"
 	@echo "🔸 example: \033[1;33mgit branch another_branch\033[0m"
