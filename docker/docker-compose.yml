@@ -13,3 +13,12 @@ services:
     image: php:7.2-fpm
     volumes:
       - ./html:/var/www/html
+  db:
+    image: mysql:5.7
+    environment:
+      MYSQL_ROOT_PASSWORD: root
+      MYSQL_DATABASE: wordpress
+      MYSQL_USER: wordpress
+      MYSQL_PASSWORD: wordpress
+    volumes:
+      - ./db:/var/lib/mysql
