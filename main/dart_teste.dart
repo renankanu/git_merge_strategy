@@ -15,6 +15,15 @@ class DartTeste {
   }
 }
 
+/// This is a function
+///
+/// This function create a message
+///
+/// ```dart
+/// createMessage();
+/// ```
 void createMessage() {
   print('Hello World');
 }
+
+/// This is a function
