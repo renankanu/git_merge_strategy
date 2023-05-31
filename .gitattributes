@@ -1,4 +1,4 @@
-/main/android/** merge=ours
-/main/ios/** merge=ours
+main/android/* merge=ours
+main/ios/* merge=ours
 .env merge=ours
-/docker/** merge=ours
+docker/* merge=ours
