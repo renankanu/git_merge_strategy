@@ -14,3 +14,7 @@ class DartTeste {
     );
   }
 }
+
+void createMessage() {
+  print('Hello World');
+}
