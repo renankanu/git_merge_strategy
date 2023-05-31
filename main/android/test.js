@@ -6,3 +6,5 @@ console.log('Hello World'); [console.log('Hello World')]
 console.log('Hello World'); [console.log('Hello World')]
 console.log('Hello World'); [console.log('Hello World')]
 console.log('Hello World'); [console.log('Hello World')]
+
+// Path: main/android/test.js
