@@ -13,4 +13,8 @@ class DartTeste {
       name: name ?? this.name,
     );
   }
+
+  void method() {
+    print('method');
+  }
 }
